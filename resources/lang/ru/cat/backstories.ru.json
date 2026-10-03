@@ -1,6 +1,6 @@
 {
     "ru": {
-        "clan_founder": "m_c is one of the founding members of the Clan.",
+        "clan_founder": "m_c {ADJ/m_c/одни/один/одна} из основателей Племени.",
         "clan_guide1": "m_c once belonged to another Clan, but felt the pull of c_n and chose to become their guide.",
         "clan_guide2": "m_c was a distant relative of one of the c_n founders and heard the Clan's call for guidance in those early moons.",
         "clan_guide3": "m_c spent moons wandering the afterlife before finding c_n.",
@@ -8,8 +8,8 @@
         "clan_guide5": "m_c was the first ghostly cat to recognize c_n and honor them.",
         "clan_guide6": "m_c lived on c_n's land long ago and took over as c_n's guardian once the founding cats arrived.",
         "clan_guide7": "m_c has wandered these lands so long {PRONOUN\/m_c\/subject} no longer know why {PRONOUN\/m_c\/subject} stayed. But when the Clans arrived, {PRONOUN\/m_c\/subject} knew it was a sign to help guide them.",
-        "clanborn": "m_c was born into the Clan where {PRONOUN\/m_c\/subject} currently {VERB\/m_c\/reside\/resides}.",
-        "halfclan1": "m_c was born into the Clan, but one of {PRONOUN\/m_c\/poss} parents resides in another Clan.",
+        "clanborn": "m_c {ADJ/m_c/родились/родился/родилась} в Племени где {PRONOUN\/m_c\/subject} сейчас {VERB\/m_c\/живут\/живёт}.",
+        "halfclan1": "m_c {ADJ/m_c/родились/родился/родилась} в Племени, но один из {PRONOUN\/m_c\/object} родителей живёт в другом Племени",
         "halfclan2": "m_c was born in another Clan, but chose to come to this Clan to be with {PRONOUN\/m_c\/poss} other parent.",
         "outsider_roots1": "m_c was born into the Clan, but one of {PRONOUN\/m_c\/poss} parents is an outsider that belongs to no Clan.",
         "outsider_roots2": "m_c was born outside the Clan but came to live there with {PRONOUN\/m_c\/poss} parent at a young age.",

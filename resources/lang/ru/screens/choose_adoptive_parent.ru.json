@@ -1,14 +1,14 @@
 {
     "ru": {
-        "heading": "Choose adoptive parents for m_c",
-        "info": "If a cat is added as an adoptive parent, they will be displayed on the family page and considered a full relative. Adoptive and blood parents will be treated the same; this also applies to siblings.",
-        "help_tooltip": "A cat's adoptive parents are set automatically when the cat is born. Any cats that are mates with the parents at the time of birth are considered adoptive parents. To be a possible adoptive parent, the cat has to be 14 moons older than the child.",
-        "potential": "Potential Parents",
-        "adoptive": "Adoptive Parents",
-        "birth": "Birth Parents",
-        "mates_current_parents": "Mates of current parents",
-        "unrelated": "Not closely related",
-        "set_parent": "Set adoptive parent",
-        "unset_parent": "Unset adoptive parent"
+        "heading": "Выберите приемных родителей для m_c",
+        "info": "Если кошка добавлена в качестве приемного родителя, она будет отображаться на странице семьи и считаться полноправным родственником. Приемные и кровные родители будут рассматриваться одинаково; это также относится к братьям и сестрам.",
+        "help_tooltip": "Приёмные родители котёнка определяются автоматически при его рождении. Все коты, состоящие в паре с его родителями на момент рождения, считаются приёмными родителями. Чтобы кот мог стать потенциальным приёмным родителем, он должен быть старше котёнка на 14 лун",
+        "potential": "Кандидаты",
+        "adoptive": "Усыновители??",
+        "birth": "Родные родители",
+        "mates_current_parents": "Пара родителей",
+        "unrelated": "Не близкие родственники",
+        "set_parent": "Выбрать родителя",
+        "unset_parent": "Убрать родителя"
     }
 }

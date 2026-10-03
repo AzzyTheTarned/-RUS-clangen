@@ -1,28 +1,28 @@
 {
     "ru": {
-        "help_tooltip": "c_n's medicine cats will gather herbs over each timeskip and during any patrols they are sent on. You can see what was gathered in the Log below! The medicine cats will give these to any hurt or sick cats that need them, helping those cats to heal quicker.<br><br>Hover your mouse over the medicine den image to see what herbs your Clan has!",
-        "hurt_sick_title": "Hurt & Sick Cats",
-        "hurt_sick_label": " Cats",
-        "log_title": "Medicine Den Log",
-        "log_label": " Log",
-        "in_den": "in den",
-        "out_den": "out of den",
-        "minor": "minor",
+        "help_tooltip": "Целители c_n будут собирать травы во время каждого пропуска луны и каждого патруля, в который их отправят. Посмотреть, что они собрали, можно в Логах ниже! Целители будут давать травы всем раненым и больным, которым они нужны, чтобы те быстрее выздоравливали.<br><br>Наведите курсор на изображение лечебных запасов, чтобы узнать, какие травы есть у вашего Племени!",
+        "hurt_sick_title": "Ранненые и больные",
+        "hurt_sick_label": " Коты",
+        "log_title": "Логи Целителя",
+        "log_label": "Логи",
+        "in_den": "внутри",
+        "out_den": "вне палатки",
+        "minor": "Пустяк",
         "meds_cover": {
-            "one": "m_c can care for a Clan of up to %{clansize} members, including {PRONOUN\/m_c\/self}.",
-            "many": "c_n's medicine cats can care for a Clan of up to %{clansize} members, including themselves."
+            "one": "m_c {VERB\/m_c\/могут\/может} лечить %{clansize} соплемеников, включая себя.",
+            "many": "Целител c_n могут лечить %{clansize} соплемеников, включая себя."
         },
-        "expiration": "It was discovered that some stores of %{herbs} were too old to be of use anymore.",
-        "better_storage": "%{name} did an excellent job storing herbs this moon, %{herbs} will expire slower.",
-        "gather_success": "%{name} collected %{herbs} during this moon.",
-        "gather_fail": "%{name} didn't collect any herbs this moon.",
-        "herb_used": "m_c was given %{herb} as treatment for: %{condition}. %{effect}",
-        "mortality_down": "{PRONOUN\/m_c\/subject\/CAP} will be less likely to die.",
-        "duration_down": "{PRONOUN\/m_c\/subject\/CAP} will heal sooner.",
-        "risks_down": "The risks associated with {PRONOUN\/m_c\/poss} condition are lowered.",
-        "focus": "With the additional focus of the Clan, the following herbs were gathered: %{herbs}.",
-        "blood_loss": "Herbs were used to stop blood loss for %{name}.",
-        "loss_event": "The Clan lost %{herbs}.",
-        "gain_event": "The Clan gained %{herbs}."
+        "expiration": "Выяснилось, что  %{herbs} запасы трав слишком старые и больше не годятся к использованию..",
+        "better_storage": "%{name} в эту луну отлично {ADJ/m_c/позаботились/позаботился/позаботилась} о хранении трав, поэтому %{herbs} будут портиться медленнее.",
+        "gather_success": "%{name} {ADJ/m_c/собрали/собрал/собрала} %{herbs} в эту луну.",
+        "gather_fail": "%{name} не {ADJ/m_c/собрали/собрал/собрала} ни одного растения в эту луну.",
+        "herb_used": "m_c {ADJ/m_c/получили/получил/получила} given %{herb} для лечения:: %{condition}. %{effect}",
+        "mortality_down": "{PRONOUN\/m_c\/subject\/CAP} с меньшей вероятностью умрёт.",
+        "duration_down": "{PRONOUN\/m_c\/subject\/CAP} быстрее {VERB\/m_c\/поправятся\/поправится}.",
+        "risks_down": "Риски, связанные с {PRONOUN\/m_c\/object} состоянием снизились.",
+        "focus": "Благодаря дополнительному вниманию Племени удалось собрать следующие травы:: %{herbs}.",
+        "blood_loss": "Травы помогли остановить кровотечение у %{name}.",
+        "loss_event": "Племя утратил %{herbs}.",
+        "gain_event": "Племя добыло %{herbs}."
     }
 }

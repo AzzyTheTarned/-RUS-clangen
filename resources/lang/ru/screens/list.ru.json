@@ -1,21 +1,21 @@
 {
     "ru": {
-        "favorite_hide_tooltip": "hide favorite cat indicators",
-        "favorite_show_tooltip": "show favorite cat indicators",
-        "view_dead": "view dead",
-        "view_dead_tooltip": "view cats in the afterlife",
-        "view_living": "view living",
-        "view_living_tooltip": "view cats in the living world",
-        "choose_group": "choose group to view:",
-        "filter_label": "sort by:",
-        "filter_age": "age \u2191",
-        "filter_reverse_age": "age \u2193",
-        "filter_death": "death",
-        "filter_exp": "EXP",
+        "favorite_hide_tooltip": "Скрыть избранных котов",
+        "favorite_show_tooltip": "Показать избранных котов",
+        "view_dead": "мёртвые",
+        "view_dead_tooltip": "Показать кошек в загробном мире",
+        "view_living": "живые",
+        "view_living_tooltip": "Показать кошек в мире живых",
+        "choose_group": "выберите группу:",
+        "filter_label": "филтр:",
+        "filter_age": "года \u2191",
+        "filter_reverse_age": "года \u2193",
+        "filter_death": "смерть",
+        "filter_exp": "ОПЫТ",
         "filter_id": "ID",
-        "filter_rank": "rank",
-        "filter_name": "name",
-        "filter_reverse_name": "name \u2193",
-        "temper": "%{group} is seen as %{temper}."
+        "filter_rank": "ранг",
+        "filter_name": "имя",
+        "filter_reverse_name": "имя \u2193",
+        "temper": "%{group} считается %{temper}."
     }
 }

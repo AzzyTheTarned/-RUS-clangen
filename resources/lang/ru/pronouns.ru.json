@@ -1,29 +1,29 @@
 {
     "ru": {
         "0": {
-            "subject": "they",
-            "object": "them",
-            "poss": "their",
-            "inposs": "theirs",
-            "self": "themself",
+            "subject": "они",
+            "object": "их",
+            "poss": "им",
+            "inposs": "ими",
+            "self": "них",
             "conju": 1,
             "gender": 0
         },
         "1": {
-            "subject": "he",
-            "object": "him",
-            "poss": "his",
-            "inposs": "his",
-            "self": "himself",
+            "subject": "он",
+            "object": "его",
+            "poss": "ему",
+            "inposs": "им",
+            "self": "нём",
             "conju": 2,
             "gender": 1
         },
         "2": {
-            "subject": "she",
-            "object": "her",
-            "poss": "her",
-            "inposs": "hers",
-            "self": "herself",
+            "subject": "она",
+            "object": "её",
+            "poss": "ей",
+            "inposs": "ею",
+            "self": "ней",
             "conju": 2,
             "gender": 2
         }

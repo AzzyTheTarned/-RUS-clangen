@@ -1,61 +1,61 @@
 {
     "ru": {
-        "random_patrol": "random patrol type",
-        "training": "training",
-        "hunting": "hunting",
-        "border": "border",
-        "herb_gathering": "herb gathering",
-        "choose_cats_info": "Choose up to six cats to take on patrol.\nSmaller patrols help cats gain more experience, but larger patrols are safer.",
-        "able_cats_label": "able cats",
-        "patrol_label": "patrol",
-        "select": "select",
-        "unavailable": "unavailable",
-        "skills_traits_label": "skills & traits",
-        "remove_all_label": "remove all",
-        "go_on_patrol": "go on patrol",
-        "current_prey": "current prey: %{prey}",
-        "needed_prey": "needed prey: %{prey}",
-        "label_patrol_info": "patrol leader: %{leader}\npatrol members: %{members}\npatrol skills: %{skills}\npatrol traits: %{traits}",
-        "current_patrol_info": "current patrol skills: %{skills}\ncurrent patrol traits: %{traits}",
-        "proceed": "proceed",
-        "dont_proceed": "do not proceed",
-        "antagonize": "antagonize",
-        "patrol_again": "patrol again",
-        "back_to_clan": "back to clan",
+        "random_patrol": "случайный патруль",
+        "training": "обучение",
+        "hunting": "охота",
+        "border": "граница",
+        "herb_gathering": "сбор лекарственных трав",
+        "choose_cats_info": "Выберите до шести котов для патруля.\nМаленькие патрульные отряды дают котам больше опыта, а крупные обеспечивают большую безопасность.",
+        "able_cats_label": "Годные",
+        "patrol_label": "патруль",
+        "select": "выбрать",
+        "unavailable": "недоступен",
+        "skills_traits_label": "Навыки и качества",
+        "remove_all_label": "вернуть всех",
+        "go_on_patrol": "отправить",
+        "current_prey": "сейчас еды: %{prey}",
+        "needed_prey": "нужно еды: %{prey}",
+        "label_patrol_info": "лидер патруля: %{leader}\nсостав патруля: %{members}\nНавыки патруля: %{skills}\nкачества патруля: %{traits}",
+        "current_patrol_info": "текущие навыки патруля: %{skills}\nтекущие качества патруля: %{traits}",
+        "proceed": "действовать",
+        "dont_proceed": "не действовать",
+        "antagonize": "спровоцировать",
+        "patrol_again": "следущий патруль",
+        "back_to_clan": "вернуться в Племя",
         "dead_outsider": {
-            "one": "%{cats}'s ghost now wanders.",
-            "many": "%{cats} ghosts now wander."
+            "one": "Теперь призрак %{cats} скитается.",
+            "many": "Теперь призраки %{cats} скитаются."
         },
-        "met_outsider": "The patrol met %{cats}.",
-        "new_outsider": "%{cats} joined the Clan.",
+        "met_outsider": "Патруль встретил %{cats}.",
+        "new_outsider": "%{cats} присоединился к Племени.",
         "lost_cats": {
-            "one": "%{cats} has been lost.",
-            "many": "%{cats} have been lost."
+            "one": "%{cats} потерялся.",
+            "many": "%{cats} потерялись."
         },
-        "outsider_rep_improved": "Your Clan's reputation towards Outsiders has improved.",
-        "outsider_rep_neutral": "Your Clan's reputation towards Outsiders is unchanged.",
-        "outsider_rep_worsened": "Your Clan's reputation towards Outsiders has worsened.",
-        "clan_rep_improved": "Relations with %{clan} have improved.",
-        "clan_rep_neutral": "Relations with %{clan} are unchanged.",
-        "clan_rep_worsened": "Relations with %{clan} have worsened.",
+        "outsider_rep_improved": "Репутация вашего Племени среди Одиночек улучшилась.",
+        "outsider_rep_neutral": "Репутация вашего Племени среди Одиночек не изменилась.",
+        "outsider_rep_worsened": "Репутация вашего Племени среди Одиночек ухудшилась.",
+        "clan_rep_improved": "Отношения с %{clan} улучшилась.",
+        "clan_rep_neutral": "Отношения с %{clan} не изменилась.",
+        "clan_rep_worsened": "Отношения с %{clan} ухудшилась.",
         "herbs_gathered": {
-            "zero": "Despite searching, no herbs were found.",
-            "one": "%{herbs} was gathered.",
-            "many": "%{herbs} were gathered."
+            "zero": "Вопреки поискам, травы так и не нашли.",
+            "one": "Был собран %{herbs}.",
+            "many": "Были собраны %{herbs}."
         },
         "herb_log": {
-            "one": "%{herbs} was gathered on patrol.",
-            "many": "%{herbs} were gathered on patrol."
+            "one": "Во время патруля собрали %{herbs}.",
+            "many": "Во время патруля собрали %{herbs}."
         },
         "prey_log": {
-            "one": "%{count} piece of prey was caught on a patrol.",
-            "many": "%{count} pieces of prey were caught on a patrol."
+            "one": "Во время патрулирования была поймана %{count} добыча.",
+            "many": "Во время патрулирования было поймано  %{count} добычи."
         },
-        "prey_very_small": "A very small amount of prey is brought to camp.",
-        "prey_small": "A small amount of prey is brought to camp.",
-        "prey_medium": "A medium amount of prey is brought to camp.",
-        "prey_large": "A large amount of prey is brought to camp.",
-        "prey_huge": "A huge amount of prey is brought to camp.",
-        "relationship_changed": "Relationships between cats in the Clan have changed."
+        "prey_very_small": "В лагерь принесли совсем немного добычи.",
+        "prey_small": "В лагерь принесли немного добычи.",
+        "prey_medium": "В лагерь принесли среднее количество добычи.",
+        "prey_large": "В лагерь принесли много добычи.",
+        "prey_huge": "В лагерь принесли огромное количество добычи.",
+        "relationship_changed": "Отношения между котами в племени изменились."
     }
 }
