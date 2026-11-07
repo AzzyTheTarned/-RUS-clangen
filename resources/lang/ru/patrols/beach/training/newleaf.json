@@ -25,12 +25,12 @@
             ]
         },
         "frequency": 2,
-        "intro_text": "As the sun creeps over the horizon, p_l leads the patrol carefully towards a familiar beach, stopping the cats on the clifftop. Below them, the sand is hidden under a mass of boulders, as long as twenty cats and as wide as ten.",
-        "decline_text": "They return to camp to report the new beach layout.",
+        "intro_text": "Когда солнце медленно поднимается над горизонтом, p_l осторожно {VERB\/p_l\/ведут\/ведёт} патруль к знакомому пляжу и {VERB\/p_l\/останавливают\/останавливает} его на вершине утёса. Внизу песок скрыт под скоплениями валунов: пляж тянется в длину на двадцать кошачьих шагов и в ширину — на десять.",
+        "decline_text": "Они возвращаются в лагерь, чтобы сообщить о том, как теперь выглядит пляж.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "As the cats watch, the silence is broken when one of the massive boulders rears up and snorts. app1's fur stands on end and app2 looks seconds away from fleeing, but p_l flicks {PRONOUN\/p_l\/poss} tail encouragingly. These are nosy-seals, {PRONOUN\/p_l\/subject} {VERB\/p_l\/explain\/explains}, and the beach full of 'boulders' suddenly seems far more intimidating, but less disturbing.",
+                "text": "Пока кошки наблюдают, тишину нарушает один из огромных валунов. Он приподнимается и фыркает. Шерсть app1 встаёт дыбом, а app2, кажется, вот-вот {VERB\/app2\/бросятся\/бросится} наутёк, но p_l ободряюще {VERB\/p_l\/машут\/машет} своим хвостом. «Это Морские слоны», — {VERB\/p_l\/поясняют\/поясняет} {PRONOUN\/p_l\/subject}, и усеянный «валунами» пляж вдруг выглядит намного внушительнее, но менее пугающим.",
                 "exp": 20,
                 "relationships": [
                     {
@@ -48,7 +48,7 @@
                         ],
                         "amount": 12,
                         "log": {
-                            "cats_from": "cat_from learned about elephant seals from cat_to."
+                            "cats_from": "cat_from {ADJ/cat_from/узнали/узнал/узнала} от cat_to о морских слонах"
                         }
                     },
                     {
@@ -66,14 +66,14 @@
                         ],
                         "amount": 8,
                         "log": {
-                            "cats_from": "cat_to taught cat_from about elephant seals."
+                            "cats_from": "cat_to {ADJ/cat_to/рассказали/рассказал/рассказала} cat_from о морских слонах."
                         }
                     }
                 ],
                 "frequency": 4
             },
             {
-                "text": "app1 and app2's jaws drop in disbelief when p_l explains these are animals, not a rockslide. They stare as a nosy-seal wakes from his slumber and bellows a challenge to his neighbor, flinching as the monolithic animals crash towards each other. Each drips enough blood to fill the veins of an entire cat, crashing and careening off each other.",
+                "text": "У app1 и app2 отвисают челюсти от изумления, когда p_l {VERB\/p_l\/объясняют\/объясняет}, что это животные, а не волуны. Они смотрят, как морской слон просыпается от дремоты и ревёт, вызывая соседа на бой, а затем вздрагивают, когда эти громадины бросаются друг на друга. С каждого сочится столько крови, что хватило бы на целую кошку, — они с грохотом сталкиваются и мечутся, налетая друг на друга.",
                 "exp": 20,
                 "relationships": [
                     {

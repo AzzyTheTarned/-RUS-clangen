@@ -25,12 +25,12 @@
             ]
         },
         "frequency": 4,
-        "intro_text": "The patrol wants to hold a training session for app1. They decide to focus on how best to navigate the rocky tide pools.",
-        "decline_text": "They decide to focus on patrolling the territory instead. Training can wait for another day.",
+        "intro_text": "Патруль планирует устроить для app1 тренировку и решает сосредоточиться на том, как лучше всего ориентироваться среди скалистых приливных луж.",
+        "decline_text": "Они решили вместо этого патрулировать территорию. Тренировку можно отложить на другой день.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "app1 listens carefully as p_l explains where to find the best prey in the rich waters of the pools.",
+                "text": "app1 внимательно {VERB\/app1\/слушают\/слушает}, как p_l {VERB\/p_l\/объясняют\/объясняет}, где в приливных лужах найти лучшую добычу.",
                 "exp": 20,
                 "frequency": 4,
                 "relationships": [
@@ -48,13 +48,13 @@
                         "amount": 10,
                         "mutual": false,
                         "log": {
-                            "cats_from": "cat_from learned about hunting in tide pools from cat_to."
+                            "cats_from": "cat_from {ADJ/cat_from/научились/научился/научилась} у cat_to охотиться в приливных лужах."
                         }
                     }
                 ]
             },
             {
-                "text": "app1 picks up the instruction quickly and is soon hopping from pool to pool, picking out the tasty morsels from them.",
+                "text": "app1 быстро {VERB\/app1\/понимают\/понимает} команду и вскоре перепрыгивает от одной луже к другой, выбирая из них самую вкусную добычу.",
                 "exp": 20,
                 "frequency": 1,
                 "relationships": [
@@ -72,13 +72,13 @@
                         "amount": 10,
                         "mutual": false,
                         "log": {
-                            "cats_from": "cat_from learned about hunting in tide pools from cat_to."
+                            "cats_from": "cat_from {ADJ/cat_from/научились/научился/научилась} охотиться в приливных лужах от cat_to."
                         }
                     }
                 ]
             },
             {
-                "text": "By the end of the patrol, s_c is easily fishing fresh-kill out of the pools without an ounce of hesitation in {PRONOUN\/s_c\/poss} movements.",
+                "text": "К концу патруля s_c уже не раздумывая {VERB\/s_c\/вылавливают\/вылавливает} из лужи свежую добычу, и в {PRONOUN\/s_c\/object} движениях нет ни тени нерешительности.",
                 "exp": 20,
                 "stat_trait": [
                     "adventurous",
@@ -106,7 +106,7 @@
                         "amount": 10,
                         "mutual": false,
                         "log": {
-                            "cats_from": "cat_from learned about hunting in tide pools from cat_to."
+                            "cats_from": "cat_from {ADJ/cat_from/научились/научился/научилась} у cat_to охотиться в приливных лужах."
                         }
                     },
                     {
@@ -123,7 +123,7 @@
                         "amount": 8,
                         "mutual": false,
                         "log": {
-                            "cats_from": "While practicing hunting in tide pools, cat_from discovered cat_to is a quick study."
+                            "cats_from": "Во время охоты в приливных лужах cat_from {ADJ/cat_from/заметили/заметил/заметила}, что cat_to быстро {VERB\/cat_to\/учатся\/учится}."
                         }
                     }
                 ]
@@ -131,12 +131,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "app1 tries to remember the differences between the creatures within the pools but fails to retain any of the information.",
+                "text": "app1 {VERB\/app1\/пытаются\/пытается} запомнить различия между обитателями в приливных лужах, но эта информация вылетает из {PRONOUN/app1/object} головы.",
                 "exp": 0,
                 "frequency": 4
             },
             {
-                "text": "s_c struggles to take the lesson seriously, and eventually the training session ends early with no real progress made.",
+                "text": "s_c несерьёзно {VERB\/s_c\/относятся\/относится} к уроку, поэтому занятие в итоге заканчивается раньше времени, практически без каких-либо успехов.",
                 "exp": 0,
                 "stat_trait": [
                     "troublesome",
@@ -162,13 +162,13 @@
                         "amount": -3,
                         "mutual": false,
                         "log": {
-                            "cats_from": "cat_from's afternoon was ruined by cat_to goofing off during hunting training."
+                            "cats_from": "День cat_from был испорчен тем, что cat_to {ADJ/cat_to/дурачились/дурачился/дурачилась} во время охотничьей тренировки."
                         }
                     }
                 ]
             },
             {
-                "text": "app1 pokes around in the pools for potential food. Ouch! Oops, that was a sea urchin. app1 limps the whole way home.",
+                "text": "app1 {VERB\/app1\/роются\/роется} в лужах в поисках чего-нибудь съедобного. Ай! Ой, это же был морской ёж. Теперь app1 {VERB\/app1\/хромают\/хромает} всю дорогу домой.",
                 "exp": 0,
                 "injury": [
                     {
@@ -201,8 +201,8 @@
         "max_cats": 6,
         "min_max_status": {},
         "frequency": 1,
-        "intro_text": "As {PRONOUN\/r_c\/subject} {VERB\/r_c\/lag\/lags} behind on patrol, the dune r_c's crossing shifts beneath {PRONOUN\/r_c\/poss} paws. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/look\/looks} around wildly for safe footing \u2014 just as the sand caves in beneath {PRONOUN\/r_c\/object} and the world goes dark.",
-        "decline_text": "Thankfully, {PRONOUN\/r_c\/subject}{VERB\/r_c\/'re\/'s} on the edge of the obstruction and {VERB\/r_c\/wriggle\/wriggles} {PRONOUN\/r_c\/poss} way clear.",
+        "intro_text": "r_c {ADJ/r_c/отставали/отставал/отставала} от своего патруля. Песчаная тропа под {PRONOUN/r_c/object} лапами стала расходиться. r_c в панике {VERB\/r_c\/ищут\/ищет}, куда безопасно наступить, как вдруг песок проваливается под н{PRONOUN\/r_c\/inposs}, и всё вокруг погружается во тьму.",
+        "decline_text": "К счастью, r_c оказывается у самого края преграды и может выбраться.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
@@ -212,7 +212,7 @@
                         6
                     ]
                 },
-                "text": "{PRONOUN\/r_c\/poss\/CAP} Clanmates come running at {PRONOUN\/r_c\/poss} yowls, and r_c is soon freed, shaken but unharmed. The patrol settles down as everyone comforts each other.",
+                "text": "Услышав {PRONOUN\/r_c\/object} крики, сородичи спешат на помощь. Вскоре r_c освобождают. {PRONOUN/r_c/object\/CAP} {ADJ/r_c/потрясены/потрясён/потрясена} случившимся, но {ADJ/m_c/целы/цел/цела} и {ADJ/m_c/невредимы/невредим/невредима}. Патруль приходит в себя, и соплеменники утешают друг друга.",
                 "exp": 20,
                 "relationships": [
                     {
@@ -229,14 +229,14 @@
                         ],
                         "amount": 10,
                         "log": {
-                            "cats_from": "cat_to helped rescue cat_from when sand caved in under {PRONOUN\/cat_from\/object}."
+                            "cats_from": "cat_to {ADJ/cat_to/помогли/помог/помогла} cat_from выбраться, когда песок провалился под н{PRONOUN\/cat_from\/inposs}."
                         }
                     }
                 ],
                 "frequency": 4
             },
             {
-                "text": "p_l comes running at {PRONOUN\/r_c\/poss} yowls, and r_c is soon freed, shaken but unharmed. The cats settle down as they comfort each other.",
+                "text": "p_l {VERB\/p_l\/прибегают\/прибегает} на крики r_c, и вскоре {PRONOUN/r_c/object} удаётся освободить. {PRONOUN/m_c/subject\/CAP} {ADJ/m_c/напуганы/напуган/напугана}, но не {ADJ/m_c/ранены/ранен/ранена}. Кошки постепенно успокаиваются, утешая друг друга.",
                 "exp": 20,
                 "relationships": [
                     {
@@ -253,14 +253,14 @@
                         ],
                         "amount": 10,
                         "log": {
-                            "cats_from": "cat_to rescued cat_from when sand caved in under {PRONOUN\/cat_from\/object}."
+                            "cats_from": "cat_to {ADJ/cat_to/спасли/спас/спасла} cat_from, когда песок под н{PRONOUN\/cat_from\/inposs} осыпался."
                         }
                     }
                 ],
                 "frequency": 4
             },
             {
-                "text": "p_l digs through the sand, helping r_c clear it away enough for the other cat to scramble free.",
+                "text": "p_l {VERB\/p_l\/разгребают\/разгребает} песок, помогая r_c освободить другую кошку.",
                 "exp": 20,
                 "relationships": [
                     {
@@ -277,14 +277,14 @@
                         ],
                         "amount": 10,
                         "log": {
-                            "cats_from": "cat_to rescued cat_from when sand caved in under {PRONOUN\/cat_from\/object}."
+                            "cats_from": "cat_to {ADJ/cat_to/спасли/спас/спасла} cat_from, когда песок под н{PRONOUN\/cat_from\/inposs} осыпался."
                         }
                     }
                 ],
                 "frequency": 1
             },
             {
-                "text": "Without letting {PRONOUN\/s_c\/object} panic, s_c carefully assesses the collapsed dune trapping {PRONOUN\/s_c\/poss} Clanmate. {PRONOUN\/s_c\/subject\/CAP} {VERB\/s_c\/find\/finds} stable footing to dig {PRONOUN\/r_c\/object} out from above, and r_c is recovered, scared but okay.",
+                "text": "Не позволяя себе запаниковать, s_c внимательно {VERB\/m_c\/изучают\/изучает} обвалившуюся дюну, в которой застрял {PRONOUN\/s_c\/object} Сокановец. {PRONOUN\/s_c\/subject\/CAP} {VERB\/m_c\/находят\/находит} устойчивую опору и {VERB\/m_c\/начинают\/начинает} капать сверху. r_c {ADJ/r_c/спасены/спасён/спасена}. {PRONOUN\/r_c\/subject\/CAP} {ADJ/r_c/напуганы/напуган/напугана}, но с н{PRONOUN\/r_c\/inposs} всё в порядке.",
                 "exp": 20,
                 "stat_skill": [
                     "CLEVER,2"
@@ -304,7 +304,7 @@
                         ],
                         "amount": 10,
                         "log": {
-                            "cats_from": "cat_to rescued cat_from when sand caved in under {PRONOUN\/cat_from\/object}."
+                            "cats_from": "cat_to {ADJ/cat_to/спасли/спас/спасла} cat_from, когда песок под н{PRONOUN\/cat_from\/inposs} осыпался."
                         }
                     }
                 ],
